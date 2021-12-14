@@ -64,7 +64,7 @@ namespace GameServer
             Console.ReadKey();
             */
             //Assignment 2
-            /*
+            
             List<Player> players = GameHelpers.InstPlayers();
             players = GameHelpers.SetPlayerData(players);
 
@@ -82,7 +82,8 @@ namespace GameServer
                 Console.WriteLine("Player {0}", i);
                 GameHelpers.printItem(players[i]);
             }
-          */
+          
+            /*
             //Assignment 3
             var builder = WebApplication.CreateBuilder(args);
 
@@ -133,6 +134,7 @@ namespace GameServer
                 endpoints.MapControllers();
             });
             app.Run();
+            */
         }
     }
 }
