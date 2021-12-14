@@ -11,7 +11,7 @@ namespace GameServer
         private List<string> Tags;
         public MongoDbRepository()
         {
-            var _mongoClient = new MongoClient("mongodb+srv://mlegend123:myheartisdead@cluster0.dd3zz.mongodb.net/game?retryWrites=true&w=majority");
+            var _mongoClient = new MongoClient("mongodb+srv://name:password@cluster0.dd3zz.mongodb.net/game?retryWrites=true&w=majority");
             database = _mongoClient.GetDatabase("game");
             players = database.GetCollection<Player>("players");
             items = database.GetCollection<Item>("items");
