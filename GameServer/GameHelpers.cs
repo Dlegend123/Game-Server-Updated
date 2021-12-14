@@ -138,7 +138,7 @@
             players1.Add(temp);
             Game<Player> game = new(players1);
 
-            List<Player> players2 = game.GetTop10Players().ToList().OrderByDescending(x=>x.Score).ToList();
+            List<Player> players2 = game.GetTop10Players().ToList();
             Console.WriteLine("Top 10 players: ");
             for (int i = 0; i < players2.Count; i++)
             {
