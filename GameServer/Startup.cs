@@ -11,6 +11,7 @@ namespace GameServer
     {
         readonly RealTimeCityBikeDataFetcher onlineFetcher;
         readonly OfflineCityBikeDataFetcher offlineFetcher;
+
         public Startup()
         {
             onlineFetcher = new RealTimeCityBikeDataFetcher(); ;
@@ -18,8 +19,6 @@ namespace GameServer
         }
         static void Main(string[] args)
         {
-
-
             //Assignment 1
             /*
             Program p = new ();
